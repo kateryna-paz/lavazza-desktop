@@ -19,9 +19,9 @@ const createWindow = () => {
   mainWindow.setMenuBarVisibility(false);
 
   // Development
-  mainWindow.loadURL("http://localhost:3000");
+  // mainWindow.loadURL("http://localhost:3000");
   // Production
-  // ...
+  mainWindow.loadFile(path.join(__dirname, "index.html"));
 };
 
 // This method will be called when Electron has finished
