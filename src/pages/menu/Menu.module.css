@@ -1,0 +1,33 @@
+.menuContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px 20px 0 20px;
+}
+
+.leftPanel {
+  width: 40%;
+  padding: 20px 0 0 20px;
+  border-right: 1px solid #ddd;
+}
+
+.rightPanel {
+  width: 60%;
+  padding: 20px;
+}
+
+.flexHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.flexHeader h1 {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.backButton {
+  margin-left: 20px;
+}

@@ -1,0 +1,16 @@
+.container {
+  padding-top: 180px;
+  text-align: center;
+}
+
+.container > h1 {
+  font-size: 5.5rem;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.backButton {
+  position: absolute;
+  left: 200px;
+}

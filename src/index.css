@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grey-blue: theme("colors.grey-blue");
+  --midnight: theme("colors.midnight");
+  --raspberry: theme("colors.raspberry");
+  --pink: theme("colors.pink");
+  --metal: theme("colors.metal");
+  --white: theme("colors.white");
+  --dark-orange: theme("colors.dark-orange");
+  --dark-green: theme("colors.dark-green");
+  --gold: theme("colors.gold");
+  --light-green: theme("colors.light-green");
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}

@@ -1,0 +1,48 @@
+.inputGroup {
+  position: relative;
+  margin: 12px auto;
+  width: 100%;
+}
+
+.inputGroup input {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.inputGroup label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #ccc;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.inputGroup input:focus ~ label,
+.inputGroup input:valid ~ label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.inputGroup .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.inputGroup input:focus ~ .underline,
+.inputGroup input:valid ~ .underline {
+  transform: scaleX(1);
+}

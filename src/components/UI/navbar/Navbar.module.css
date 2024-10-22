@@ -1,0 +1,38 @@
+.navList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.baseLink {
+  color: white;
+  padding: 0.5rem 2.8rem;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s,
+    border-bottom 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+.baseLink:hover {
+  background-color: var(--grey-blue);
+  color: var(--midnight);
+  border-bottom: 3px solid var(--grey-blue);
+}
+
+.baseLink:active {
+  background-color: var(--midnight);
+  color: var(--grey-blue);
+  border-bottom: 3px solid var(--white);
+}
+
+.activeLink {
+  background-color: var(--midnight);
+  color: var(--gold);
+  border-bottom: 3px solid var(--white);
+  padding: 0.6rem 2.8rem;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s,
+    border-bottom 0.3s;
+}

@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-bottom: 30px;
+}
+
+.cart {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  margin-bottom: 10px;
+  padding-left: 16px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cartItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6px;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.itemDetails {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.quantityControl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.quantityButton {
+  background-color: transparent;
+  border: 2px solid var(--midnight);
+  color: var(--midnight);
+  padding: 1px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.quantityButton:disabled {
+  border: 2px solid grey;
+  cursor: not-allowed;
+}
+
+.quantityButton:active {
+  background-color: var(--midnight);
+  color: white;
+}
+
+.actions {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.removeButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.cart h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.emailInput {
+  width: 100%;
+  padding-top: 20px;
+  margin: 20px 0 10px 0;
+  border-top: 2px solid var(--midnight);
+}
+
+.actionButtons {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
