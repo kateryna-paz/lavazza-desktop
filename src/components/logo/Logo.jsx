@@ -5,7 +5,7 @@ function Logo() {
   return (
     <NavLink to="/home">
       <img
-        src="/img/Lavazza_logo_White.png"
+        src="img/Lavazza_logo_White.png"
         alt="Lavazza Logo"
         className={styles.logo}
       />
